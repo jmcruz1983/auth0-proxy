@@ -1,0 +1,23 @@
+{
+  "name": "auth0-proxy",
+  "version": "1.0.0",
+  "description": "Proxy that caches auth0 M2M tokens",
+  "main": "proxy.js",
+  "scripts": {
+    "prettier": "prettier --write '**/*.{ts,js,json}'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "auth0",
+    "proxy"
+  ],
+  "author": "Juan Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "jwt-decode": "^3.1.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}

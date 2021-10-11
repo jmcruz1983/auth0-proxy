@@ -1,0 +1,13 @@
+# Configuration
+.env
+
+# JS related
+node_modules
+yarn.lock
+package-lock.json
+
+# IDE
+.vscode
+
+# Certs
+*.pem
